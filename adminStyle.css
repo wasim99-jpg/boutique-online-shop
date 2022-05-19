@@ -1,0 +1,145 @@
+*
+{
+	
+	padding: 0 ;
+	margin: 0 ;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+		background:#84563c;
+}
+.container{
+  margin: auto;
+  width: 60%;
+  border: 3px solid white;
+  padding: 10px;
+}
+/*========================================================================= button*/
+.deletebtn ,.searchbtn
+{
+	width: 50px ;
+	font-size: 14px ;
+	padding: 5px ;
+	border: 2px solid white ;
+	text-align: center ;
+	text-decoration: none ;
+	color: white ;
+	transition: all 0.2s;
+	background:#84563c;
+	font-family: 'Raleway', sans-serif;
+}
+
+.deletebtn:hover ,.searchbtn:hover 
+{
+	background: white  ;
+	color: #84563c ;
+	border: 2px solid #84563c ;
+}
+.searchbtn{
+	width:80px;
+}
+/*========================================================================= navigation*/
+nav 
+{
+	opacity: .9 ;
+	top: 0 ;
+	background: #84563c ;
+	display: flex ;
+	justify-content: space-around ;
+	align-items: center ;
+	position: sticky ;
+	height: 60px;
+	font-family: 'Mina', sans-serif;
+	z-index: 2 ;
+	border: 2px solid white;
+	
+}
+
+.shinshi
+{
+	transition: color .2s ;
+	
+}
+
+.shinshi:hover 
+{
+	color: yellow ;
+}
+
+
+nav a
+{
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 36px ;
+	background: #84563c;
+	color: white ;
+	text-decoration: none ;
+	
+}
+
+.menu a
+{
+	color: white ;
+	text-decoration: none ;
+	font-size: 20px ;
+	transition: color .2s ;
+}
+
+.menu a:hover 
+{
+	color: yellow ;
+}
+
+
+ul.accountMenu
+{
+	position: sticky ;
+	color: white ;
+	text-decoration: none ;
+	font-size: 20px ;
+	right: 30px;
+	
+}
+
+
+
+.menu li , .accountMenu li
+{
+	display: inline-block ;
+	margin-left: 20px ;
+	padding: 20px ;
+
+}
+
+.accountMenu li
+{
+float:right;
+		
+}
+/*========================================================================= table*/
+.item-size-container
+{
+	
+	width: 100% ;
+	display: flex ;
+	justify-content: center ;
+	align-items: center ;
+}
+
+.item-size-container table, th, td
+{
+	margin-top: 30px ;
+	width: 100% ;
+	font-size: 20px ;
+	border: 1px solid white;
+	text-align: left ;
+	border-collapse: collapse ;
+	padding: 10px ;
+	color: white ;
+}
+
+
+h1{
+	text-align:center;
+	color:white;
+}
